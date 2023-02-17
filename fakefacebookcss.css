@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,800&display=swap');
+
+body{
+    background-color:lightgray;
+    margin:0;
+}
+
+#navbar{
+
+    background-color: white;
+ display: flex;
+  justify-content: space-between;
+}
+.blue{
+
+    background-color: white;
+    margin-bottom: 10px;
+    height: 7px;
+}
+.box{
+    height: 7px;
+    width: 50px;
+    background-color: dodgerblue;
+    margin: 0 auto;
+position:relative;
+    right:32px;
+
+}
+.item{
+    vertical-align: middle;
+    width:50px;
+
+    aspect-ratio: 1;
+display: inline-block;
+
+    margin:5px;
+}
+.pfp{
+
+    width:50px;
+border-radius: 50px;
+    aspect-ratio: 1;
+
+}
+.item-more{
+    vertical-align: middle;
+    width:50px;
+
+    aspect-ratio: 1;
+    display: inline-block;
+float: right;
+    margin:5px;
+
+
+    position: relative;
+}
+p{
+    font-family: 'Roboto Flex', sans-serif;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.create{
+
+    margin:0 auto;
+    align-self: center;
+    background-color: white;
+    width: 700px;
+    border-radius: 10px;
+}
+.userpost{
+
+    margin:0 auto;
+    align-self: center;
+    background-color: white;
+    width: 700px;
+border-radius: 10px 10px 0px 0px;
+}
+.question{
+    margin:5px;
+    display: inline-block;
+    width:600px;
+    height:50px;
+
+
+    border-radius: 5px;
+border-style: solid;
+    aspect-ratio: 1;
+
+}
+.post{
+    margin-top: 20px;
+
+}
+.bar{
+
+    margin:0 auto;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: white;
+
+
+
+}
+.bar2{
+
+    margin:0 auto;
+    height: 80px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px ;
+
+}
+.image-container{
+    margin:0 auto;
+    width: 700px;
+    display: flex;
+
+    background-color: darkgray;
+
+
+}
+.doggy{
+    margin:0 auto;
+}
+.doggy2{
+    margin:0 auto;
+    Width:700px;
+}
+.item2{
+    vertical-align: middle;
+    width:130px;
+    height:30px;
+
+    aspect-ratio: 1;
+    display: inline-block;
+
+    margin:15px;
+}
+.item3{
+    vertical-align: middle;
+    width:200px;
+    height:30px;
+
+    aspect-ratio: 1;
+    display: inline-block;
+
+    margin:15px;
+}
+.react{
+    margin-top: 0;
+}
+.idk{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: large;
+    color: black;}
+
+.cratebutton{
+
+    padding:15px;
+  position:fixed;
+    float: left;
+    bottom: 10px;
+    right:10px;
+    width:50px;
+    aspect-ratio: 1;
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+
+.menu-more {
+    display: none;
+    position: absolute;
+    border-radius: 15px;
+    background-color: white;
+    min-width: 160px;
+    padding: 10px
+
+
+}
+
+.item-more:hover .menu-more {
+    display: block;
+}
+.idk2{
+    display: inline-block;
+   margin:0px;
+    font-size: 16px;
+
+}
+svg{
+    vertical-align: middle;
+}
